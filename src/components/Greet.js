@@ -8,8 +8,9 @@ const Greet = (props) => {
     return (
         <div>
             <h1>
-                Hello {props.name} A.K.A. {props.heroname}
+                Hello {props.name} A.K.A {props.heroname}
             </h1>
+            <p>This is a new change</p>
             {props.children}
         </div>
     )
